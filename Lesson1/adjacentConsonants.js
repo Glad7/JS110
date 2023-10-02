@@ -12,6 +12,7 @@ function sortConsonantsArr(arr) {
 
   //sort by most adjacent consonants
   arrToSort.sort((a,b) => b[1] - a[1]);
+  
   //construct final array to return
   arrToSort.forEach((element) => arrReturn.push(element[0]));
 
